@@ -13,38 +13,20 @@
 </head>
 
 <body>
-  <form class="box active">
+  <form class="box active" id="box">
     <h1>Sign in</h1>
     <input type="text" placeholder="username" required />
-    <div class="password-wrapper">
-      <input type="password" placeholder="password" required />
-      <button class="show-password">
-        <ion-icon name="eye-outline"></ion-icon>
-        <ion-icon name="eye-off-outline"></ion-icon>
-      </button>
-    </div>
+    <input type="password" placeholder="password" required />
     <a href="#" class="forget-password">I forget my password!</a>
     <button class="signin-button">Enter</button>
   </form>
 
-  <form class="box">
+  <form class="box" id="box">
     <h1>Sign up</h1>
     <input type="text" placeholder="username" required />
     <input type="email" placeholder="user@email.com" required />
-    <div class="password-wrapper">
-      <input type="password" placeholder="password" required />
-      <button class="show-password">
-        <ion-icon name="eye-outline"></ion-icon>
-        <ion-icon name="eye-off-outline"></ion-icon>
-      </button>
-    </div>
-    <div class="password-wrapper confirm-password">
-      <input type="password" placeholder="confirm your password" required />
-      <button class="show-password">
-        <ion-icon name="eye-outline"></ion-icon>
-        <ion-icon name="eye-off-outline"></ion-icon>
-      </button>
-    </div>
+    <input type="password" placeholder="password" required />
+    <input type="password" placeholder="confirm your password" required />
     <button class="signup-button">Sign up</button>
   </form>
 </body>
